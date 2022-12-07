@@ -7,6 +7,8 @@ A useful container tools for debuging network pod - Docker image based on Alpine
 - openssh 
 - telnet
 - nc
+- mysql client
+- pgsql client
 
 ### docker run
 ```

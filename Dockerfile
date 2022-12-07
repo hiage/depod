@@ -7,6 +7,8 @@ RUN apk fix && \
     nmap \
     busybox-extras \
     curl \
+    mysql-client \
+    postgresql-client \
     openssh
 
 ENV TZ=Asia/Jakarta
