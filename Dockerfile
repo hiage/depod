@@ -1,7 +1,6 @@
 FROM alpine
 
-RUN apk fix && \
-    apk add --no-cache \ 
+RUN apk add --no-cache \ 
     tzdata \
     bash \
     nmap \

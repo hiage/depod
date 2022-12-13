@@ -18,6 +18,10 @@ docker run -it --rm --net=host hiage/depod:latest bash
 ### kubernetes
 apply with kubectl
 ```
+kubectl apply -f https://raw.githubusercontent.com/hiage/depod/main/depod.yaml
+
+or 
+
 cat <<EOF | kubectl apply -f -
 apiVersion: v1  
 kind: Pod
